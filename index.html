@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Define que o idioma do site é português do Brasil -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o site responsivo em dispositivos móveis -->
+    <title>Allan Willian</title> <!-- Título que aparece na aba do navegador -->
+
+    <!-- Ícone que aparece na guia do navegador (favicon) -->
+    <link rel="icon" href="img/logo.png">
+
+    <!-- Link para o arquivo de estilo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Script JavaScript local -->
+    <script src="/js/script.js"></script>
+
+    <!-- Biblioteca de ícones Font Awesome -->
+    <script src="https://kit.fontawesome.com/c895234983.js" crossorigin="anonymous"></script>
+
+    <!-- Fonte Montserrat do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Fonte Cal Sans do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho da página com navegação -->
+    <header>
+        <nav>
+            <!-- Logo clicável que leva ao início -->
+            <a href="index.html" class="logo">
+                <img src="img/logo_png.png" alt="Logotipo do site">
+            </a>
+
+            <!-- Menu de navegação principal -->
+            <ul class="menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <!-- Ícone/link do LinkedIn -->
+            <aside class="social">
+                <a href="https://www.linkedin.com/in/allan-willian-526a1a203/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin fa-lg" style="color: #0a1bff;"></i>
+                </a>
+            </aside>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Ícones decorativos de fundo -->
+        <i class="fa-solid fa-code background-icon" style="top: 15%; left: 5%;"></i>
+        <i class="fa-solid fa-terminal background-icon" style="top: 30%; right: 10%;"></i>
+        <i class="fa-solid fa-database background-icon" style="bottom: 20%; left: 15%;"></i>
+        <i class="fa-solid fa-gear background-icon" style="top: 60%; right: 5%;"></i>
+        <i class="fa-brands fa-github background-icon" style="bottom: 10%; left: 40%;"></i>
+        <i class="fa-solid fa-laptop-code background-icon" style="top: 10%; right: 35%;"></i>
+
+        <!-- Seção de apresentação -->
+        <section id="inicio">
+            <img src="img/eu.jpg" alt="Allan Willian" class="img_eu">
+            <div class="texto-apresentacao">
+                <h3>Olá, eu sou</h3>
+                <h1>Allan <span class="destaque">Willian</span></h1>
+                <h3>Engenheiro de Software & Analista de Sistemas</h3>
+            </div>
+        </section>
+    </main>
+
+    <!-- Seção sobre mim -->
+    <section id="sobre" aria-label="Sobre Mim">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou Allan Willian, tenho 21 anos e atuo na área de TI desde os 18 anos. 
+            Iniciei como estagiário em Suporte Técnico e hoje sou Analista de Sistemas. 
+            Curso Engenharia de Software e sou movido por inovação e aprendizado constante.
+        </p>
+
+        <!-- Ícones decorativos -->
+        <div class="icones">
+            <i class="fa-solid fa-slash background-icon" style="top: 20%; left: 90%;"></i>
+            <i class="fa-solid fa-plus background-icon" style="bottom: 70%; left: 15%;"></i>
+            <i class="fa-solid fa-minus background-icon" style="top: 80%; right: 30%;"></i>
+        </div>
+    </section>
+
+    <!-- Seção de formação acadêmica -->
+    <section id="formacao" aria-label="Formação">
+        <h2>Formação</h2>
+        <p>
+            Técnico em Informática pelo Senac Minas e estudante de Engenharia de Software pela Uninter.
+            Atuo com SQL, Oracle, MySQL, Java, JavaScript e frameworks como Spring, React, Docker e Git.
+        </p>
+
+        <!-- Ícones decorativos -->
+        <i class="fa-solid fa-database background-icon" style="top: 15%; left: 10%;"></i>
+        <i class="fa-solid fa-code background-icon" style="top: 40%; right: 15%;"></i>
+        <i class="fa-brands fa-react background-icon" style="bottom: 20%; left: 20%;"></i>
+        <i class="fa-brands fa-java background-icon" style="top: 60%; right: 5%;"></i>
+    </section>
+
+    <!-- Seção do portfólio com projetos -->
+    <section id="portfolio" aria-label="Portfólio">
+        <h2>Portfólio</h2>
+        <div class="projetos">
+            <!-- Projeto 1 -->
+            <div class="card">
+                <h3>Los Barbers</h3>
+                <p>App de barbearia feito em React Native com Firebase.</p>
+                <a href="https://github.com/AllanWillian/Los-Barbers---App" target="_blank" class="btn-github">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="card">
+                <h3>Enquete</h3>
+                <p>Back-end para enquetes com TypeScript, Prisma, Docker e PostgreSQL.</p>
+                <a href="https://github.com/AllanWillian/enquete" target="_blank" class="btn-github">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="card">
+                <h3>Pass-in</h3>
+                <p>Back-end para site de viagens feito em Java com Maven.</p>
+                <a href="https://github.com/AllanWillian/Pass-in" target="_blank" class="btn-github">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+<!-- Rodapé com informações de contato e formulário -->
+<footer id="contato" aria-label="Rodapé com contatos e considerações">
+    <div class="footer-content">
+        <!-- Coluna com contatos -->
+        <div class="footer-contatos">
+            <h3>Contato</h3>
+            <p><i class="fa-solid fa-envelope"></i> allanti304@gmail.com</p>
+            <p><i class="fa-brands fa-linkedin"></i> 
+                <a href="https://www.linkedin.com/in/allan-willian-526a1a203/" target="_blank">LinkedIn</a>
+            </p>
+            <p><i class="fa-brands fa-github"></i> 
+                <a href="https://github.com/AllanWillian" target="_blank">GitHub</a>
+            </p>
+        </div>
+
+        <!-- Coluna com formulário de contato -->
+        <div class="footer-form">
+            <h3>Fale Comigo</h3>
+            <form id="form-contato">
+                <input type="text" placeholder="Seu nome" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">
+                    <i class="fa-regular fa-paper-plane"></i> Enviar
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Créditos finais -->
+    <div class="footer-copy">
+        <p>&copy; 2025 Allan Willian. Todos os direitos reservados.</p>
+        <p class="footer-note">Obrigado por visitar meu portfólio! Estou sempre aberto a novos projetos ou colaborações.</p>
+    </div>
+</footer>
+
+</html>
